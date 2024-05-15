@@ -4,8 +4,9 @@ uzunluk = int(input("Şifreniz kaç haneli olsun"))
 
 parola = ""
 
-for i in range(uzunluk)
-    parola += random.choise(sifre)
+for i in range(uzunluk):
+    parola += random.choice(sifre)
 
 
 print(parola)
+
